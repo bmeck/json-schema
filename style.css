@@ -1,0 +1,96 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+table {
+  border-spacing: 0;
+  border-bottom: 1px solid gray;
+}
+th {
+  background: rgb(100,125,200);
+  color: white;
+  padding: 1ex;
+}
+td:first-child {
+  border-right: none;
+}
+td {
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+}
+body {
+  background: rgb(100, 125, 200);
+  font-size: 15px;
+}
+header {
+  padding: 0.5em;
+}
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+#goto-top {
+  position: fixed;
+  padding: 3px;
+  top: 0;
+  right: 0;
+  background: white;
+  border-left: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+@media screen and (min-width: 400px) {
+  #column {
+  min-width: 400px;
+  max-width: 80%;
+  border-left: 1px solid rgb(50, 65, 100);
+  border-right: 1px solid rgb(50, 65, 100);
+  }
+}
+#column {
+  background: white;
+  margin: 0 auto;
+  padding-bottom: 1em;
+}
+h1 {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 1.5em;
+  margin: 0;
+}
+  nav {
+  padding: 0.3em;
+}
+  nav a {
+  padding: 3px;
+}
+  h2 {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  padding: 3px 0.5em;
+  padding-left: 0.33em;
+  display: inline-block;
+  /*hacky for line break*/
+  clear: both;
+  background: rgb(175, 175, 255);
+}
+  h3 {
+  margin: 0;
+  font-weight: bold;
+  font-size: 1em;
+  font-family: sans-serif;
+}
+  section {
+  border: 0.1em solid gray;
+  padding: 0.5em;
+  margin-top: -2em;
+  padding-top: 2em;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
